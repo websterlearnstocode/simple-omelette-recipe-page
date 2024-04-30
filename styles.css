@@ -1,0 +1,31 @@
+@import url('https://fonts.google.com/specimen/Young+Serif');
+@import url('https://fonts.google.com/specimen/Outfit');
+
+
+body{
+  font-family:'Outfit';
+  font-weight: 400;
+  margin:0;
+}
+
+.desktop-display{
+  max-width: 1400px;
+  background-color: hsl(30, 10%, 34%);
+}
+
+.mobile-display, img{
+  background-color: hsl(0, 0%, 100%);
+  display: block;
+  align-items: center;
+  padding: 20px;
+  margin: 10px 10px;
+  justify-items: center;
+}
+
+.preparation-time{
+  background-color: hsl(30, 18%, 87%);
+}
+
+img{
+  margin: 0;
+}
